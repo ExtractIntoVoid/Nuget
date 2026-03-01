@@ -18,11 +18,7 @@ jobs:
         matrix:
             prj: [
                 "EIV_Coroutines",
-                "EIV_Pack",
-                "EIV_Core",
-                "EIV_Common",
-                "EIV_DataPack",
-                "EIV_JsonLib"
+                "EIV_Pack"
             ]
     steps:
         - name: "Checkout branch"
